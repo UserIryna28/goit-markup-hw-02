@@ -57,6 +57,7 @@ color:  #FFFFFF;
 
 .hero-btn {
 font-family: inherit;
+Font style: Bold
 Weight 500
 Size 16px
 Line height 1,5
@@ -255,6 +256,18 @@ color: #2E2F42;
 .button {
 
 }
+
+.hero-button {
+Font family: Roboto
+Font style: Medium
+Font size: 16px
+Line height: 1,5
+Letter spacing: 4%
+background-color: #F4F4FD;
+color: #4D5AE5;
+
+}
+
 .button.primary {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
