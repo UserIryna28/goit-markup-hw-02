@@ -1,4 +1,8 @@
+:root {
+    --primary-title-color: #2E2F42;
+    --secondary-title-color:#FFFFFF ;
 
+}
 body {
 Font family: Roboto, sans-serif
 Font style: Medium
@@ -43,6 +47,7 @@ color: #4D5AE5;
 
 .hero{
 background-color: #2E2F42;
+color: #FFFFFF;
 
 
 } 
@@ -52,7 +57,7 @@ Size 56px
 Line height 1
 Letter 2%
 Align Center
-color:  #FFFFFF;
+--primary-title-color:#FFFFFF
 } 
 
 .hero-btn {
@@ -232,7 +237,7 @@ color: #2E2F42;
 }
 
 .header-item {
-color: #2E2F42;
+color: #E5E5E5;
 }
 .section-title {
     color: #4D5AE5;
@@ -250,7 +255,10 @@ color: #2E2F42;
     color: #404BBF;
 }
 .button-type {
-    color: #404BBF;
+Font family: Roboto
+Font style: Medium
+color: #404BBF;
+background-color: #F4F4FD
 }
 
 .button {
@@ -278,6 +286,14 @@ color: #4D5AE5;
     background-color: var(--primary-white-color);
 
 }
+.services-title {
+color: #2E2F42;
+background-color: #E7E9FC;
+
+ }
+.services-item-text {
+
+ }
 
 
 
@@ -297,6 +313,9 @@ color: #434455;;
 font-size: 16px;
  }
  .footer{
-    background-color: #2E2F42;
-
+background-color: #2E2F42;
+color: #E7E9FC;
+ }
+ .footer-text {
+color: #E7E9FC;
  }
