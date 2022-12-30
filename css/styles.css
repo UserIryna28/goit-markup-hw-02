@@ -22,8 +22,16 @@ Font family: Raleway, sans-serif
 Font style: ExtraBold
 Font size: 18px
 Line height: 1,3
-Letter spacing: 3%
-color: #FFFFFF;
+color: #4D5AE5;
+
+}
+.header-studio {
+Font family: Raleway, sans-serif
+Font style: ExtraBold
+Font size: 18px
+Line height: 1,3
+color: #2E2F42;   
+
 }
 
 .header-item {
@@ -34,6 +42,10 @@ color: #FFFFFF;
 color: #4D5AE5;
 
 }
+.header-links {
+list-style: none
+}
+list-style: none
 
 .header-link {
 color: #434455;
@@ -59,7 +71,7 @@ color: #FFFFFF;
 } 
 --primary-title-color:#FFFFFF
 
-.hero-btn {
+.hero-button {
 Font-style: Bold;
 font-weight: 500;
 font-size: 16px;
@@ -73,7 +85,7 @@ background-color: #4D5AE5;
 
 
 .features  {
-background-color: #E5E5E5;
+background-color: #FFFFFF;
 
 
 } 
@@ -86,6 +98,7 @@ color: #2E2F42;
 
 }
 .features-list {
+list-style: none;
 
 }
 .features-item {
@@ -115,8 +128,11 @@ background-color: #E5E5E5;
 }
 
 .team { 
-background-color: #F4F4FD;
+background-color:#F4F4FD;
 
+}
+.title-list {
+list-style: none;
 }
 
 .team-title {
