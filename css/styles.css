@@ -10,7 +10,7 @@ Font size: 16px
 Line height: 1,5
 Letter spacing: 2%
 color: #2E2F42;
-background-color: #E7E9FC;
+background-color: #FFFFFF;
 
 }
 
@@ -52,21 +52,18 @@ color: #FFFFFF;
 
 } 
 .hero-title {
-Weight 700
-Size 56px
-Line height 1
-Letter 2%
-Align Center
---primary-title-color:#FFFFFF
+font-weight: 700;
+font-zize: 56px;
+line-height: 1;
+color: #FFFFFF;
 } 
+--primary-title-color:#FFFFFF
 
 .hero-btn {
-font-family: inherit;
-Font style: Bold
-Weight 500
-Size 16px
-Line height 1,5
-Letter 4%
+Font-style: Bold;
+font-weight: 500;
+font-size: 16px;
+line-height: 1,5;
 color:  #FFFFFF;
 cursor: pointer;
 background-color: #4D5AE5;
@@ -191,7 +188,6 @@ font-family: Roboto,sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 1,5;
 color: #2E2F42;
 background-color:#E7E9FC;
     
@@ -202,7 +198,17 @@ background-color:#E7E9FC;
 .header{
 
 color: #2E2F42;
+
 }
+.header-logo {
+color: #4D5AE5;
+
+}
+.header-studio {
+ color: #2E2F42;   
+
+}
+
 
 .header-links a {
 color: #2E2F42;
@@ -275,6 +281,10 @@ background-color: #F4F4FD;
 color: #4D5AE5;
 
 }
+.hero-list{
+list-style: none
+
+}
 
 .button.primary {
     color: var(--primary-white-color);
@@ -284,6 +294,10 @@ color: #4D5AE5;
 .button.secondary {
     color: var(--accent-color);
     background-color: var(--primary-white-color);
+
+}
+.services-list {
+list-style: none
 
 }
 .services-title {
