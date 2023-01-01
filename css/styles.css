@@ -308,6 +308,10 @@ list-style: none
     background-color: var(--primary-white-color);
 
 }
+.services {
+background-color: #FFFFFF;
+ }
+
 .services-list {
 list-style: none
 
