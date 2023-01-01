@@ -122,6 +122,7 @@ Line height: 1,1
 Align: Center
 Letter spacing: 2%
 color: #2E2F42;
+background-color:#F4F4FD;
 }
 .services-item {
 background-color: #E5E5E5;
@@ -141,7 +142,9 @@ Font size: 36px
 Line height: 1,1
 Align: Center
 Letter spacing: 2%
+background-color:#F4F4FD
 --primary-title-color: #2E2F42;
+
 }
 
 .team-title-text{
@@ -366,5 +369,5 @@ color: #F4F4FD;
 
  
  .footer-text {
-color: #E7E9FC;
+--secondary-title-color: #FFFFFF;;
  }
