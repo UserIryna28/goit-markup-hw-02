@@ -13,7 +13,7 @@ background-color: #FFFFFF;
 --primary-title-color: #2E2F42;
 
 }
-
+/* -----header---- */
 header {
 
 }
@@ -30,12 +30,12 @@ Font family: Raleway, sans-serif
 Font style: ExtraBold
 Font size: 18px
 Line height: 1,3
-color:#2E2F42 ;
+--primary-title-color: #2E2F42;
 
 }
 
 .header-item {
-    color: #FFFFFF;
+color: #FFFFFF;
 }
 
 .header-item :hover, .header-item :focus{
@@ -53,22 +53,19 @@ color: #434455;
 color: #4D5AE5;
 
 }
-
-
-
+/* ----hero----- */
 .hero{
 background-color: #2E2F42;
-color: #FFFFFF;
-
-
+--secondary-title-color:#FFFFFF ;
 } 
+
 .hero-title {
+Font style: Bold
 font-weight: 700;
 font-zize: 56px;
 line-height: 1;
-color: #FFFFFF;
+--secondary-title-color:#FFFFFF ;
 } 
---primary-title-color:#FFFFFF
 
 .hero-button {
 Font-style: Bold;
@@ -76,17 +73,15 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1,5;
 cursor: pointer;
-color:  #FFFFFF;
+--secondary-title-color:#FFFFFF ;
 background-color: #4D5AE5;
-
 } 
 
-
+/* ----features---- */
 .features  {
 background-color: #FFFFFF;
-
-
 } 
+
 .features-title  {
 Font style: Medium
 Font size: 20px
@@ -110,6 +105,7 @@ Line height: 1,5
 Letter spacing: 2%
 color: #434455;
 }
+/* ----services---- */
 .services {
 background-color:#FFFFFF;
 }
@@ -125,16 +121,16 @@ background-color:#FFFFFF;
 .services-item {
 background-color:#FFFFFF;
 }
+/* ----team---- */
 
 .team { 
 background-color:#F4F4FD;
 
 }
 .title-list list { 
-color: #FFFFF;
+color: #FFFFFF;
 
 }
-
 .title-list {
 list-style: none;
 }
@@ -169,7 +165,7 @@ Letter spacing: 2%
 color: #434455;
 background-color: #FFFFFF;
 }
-
+/* ----footer---- */
 .footer {
 Font family: Raleway, sans-serif
 Font style: ExtraBold
@@ -181,10 +177,16 @@ color: #E7E9FC, #4D5AE5;
 }
 .footer-logo {
 color: #4D5AE5;
+background-color: #2E2F42;
 
 }
 .footer-studio {
-color: #F4F4FD;   
+color: #F4F4FD; 
+background-color: #2E2F42;  
+
+}
+.footer-text {
+--secondary-title-color: #FFFFFF  
 
 }
 
@@ -196,6 +198,12 @@ color: #F4F4FD;
 color: #4D5AE5;
 
 }
+/* ----portfolio---- */
+:root {
+ --primary-title-color: #2E2F42;
+ --secondary-title-color:#FFFFFF ;
+ }
+
 
 body {
 font-family: Roboto,sans-serif;
@@ -203,31 +211,23 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 color: #2E2F42;
-background-color: #FFFFFF;
-    
-
-}
-
+background-color: #FFFFFF , #2E2F42;
+    }
+/* ----header---- */
 
 .header{
-
 color: #2E2F42;
-
 }
 .header-logo {
 color: #4D5AE5;
-
 }
 .header-studio {
  color: #2E2F42;   
-
 }
-
 
 .header-links a {
 color: #2E2F42;
 }
-
 .logo {
 font-family: Raleway, sans-serif;
 font-weight: 800;
@@ -235,23 +235,8 @@ font-size: 18px;
 line-height: 1,3;
 color: #2E2F42;
 
-
-
-
-
 }
-.site-nav .link {
-    color: var --accent-color;
 
-
-}
-.site-nav .link:hover,
-
-.site-nav .link:focus{
-    color: var(--accent-color);
-
-
-}
 .site-nav .link.current {
     color: var(--accent-color);
 }
@@ -259,6 +244,7 @@ color: #2E2F42;
 .header-item {
 color: #E5E5E5;
 }
+/* ----hero---- */
 .section-title {
     color: #4D5AE5;
     background-color: #E7E9FC;
@@ -310,6 +296,7 @@ list-style: none
     background-color: var(--primary-white-color);
 
 }
+/* ----services---- */
 .services {
 style: none;
  }
@@ -320,6 +307,7 @@ list-style: none
 }
 .services-title {
 color: #2E2F42;
+background-color: #FFFFFF;
 
 
  }
@@ -334,23 +322,19 @@ background-color: #FFFFFF;
  }
 
 
-
- :root {
-
- }
  .list {
 
  }
  .title{
-    color: #2E2F42;
-    font-size: 20px;;
+color: #2E2F42;
+font-size: 20px;;
  }
 
  .text {
 color: #434455;;
 font-size: 16px;
  }
- 
+ /* ----footer---- */
   
 .footer {
 Font family: Raleway, sans-serif
@@ -371,8 +355,6 @@ color: #F4F4FD;
 background-color: #2E2F42; 
 
 }
-
- 
  .footer-text {
 --secondary-title-color: #FFFFFF;
  }
