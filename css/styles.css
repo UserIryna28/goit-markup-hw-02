@@ -56,6 +56,7 @@ color: #4D5AE5;
 /* ----hero----- */
 .hero{
 background-color: #2E2F42;
+color: #FFFFFF;
 --secondary-title-color:#FFFFFF ;
 } 
 
@@ -64,6 +65,7 @@ Font style: Bold
 font-weight: 700;
 font-zize: 56px;
 line-height: 1;
+color: #FFFFFF;
 --secondary-title-color:#FFFFFF ;
 } 
 
@@ -73,21 +75,21 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1,5;
 cursor: pointer;
+color: #FFFFFF;
 --secondary-title-color:#FFFFFF ;
 background-color: #4D5AE5;
 } 
 
 /* ----features---- */
-.features  {
-background-color: #FFFFFF;
-} 
-
-.features-title  {
+.features  
+/*  features-title*/
+.features-item--title  {
 Font style: Medium
 Font size: 20px
 Line height: 1,2
 Letter spacing: 2%
 --primary-title-color: #2E2F42;
+background-color: #FFFFFF
 
 }
 .features-list {
@@ -186,6 +188,7 @@ background-color: #2E2F42;
 
 }
 .footer-text {
+color: #F4F4FD
 --secondary-title-color: #FFFFFF  
 
 }
@@ -245,7 +248,7 @@ color: #2E2F42;
 color: #E5E5E5;
 }
 /* ----hero---- */
-.section-title {
+.hero-title {
     color: #4D5AE5;
     background-color: #E7E9FC;
 }
@@ -261,10 +264,6 @@ color: #E5E5E5;
     color: #404BBF;
 }
 .button-type {
-Font family: Roboto
-Font style: Medium
-color: #404BBF;
-background-color: #F4F4FD
 }
 
 .button {
