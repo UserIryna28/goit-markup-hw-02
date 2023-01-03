@@ -57,20 +57,20 @@ color: #4D5AE5;
 
 }
 /* ----hero----- */
-.hero{
-
+.cover{
+background-color: #2E2F42;
 } 
 
-.hero-title {
+.cover-title {
 font-weight: 700;
 font-size: 56px;
 line-height: 1;
 letter-spacing: 0.02em;
 color: #FFFFFF;
-background-color: #2E2F42;
+
 } 
 
-.hero-button {
+.cover-button {
 Font-family: inherit;
 font-weight: 500;
 font-size: 16px;
@@ -172,37 +172,6 @@ letter-spacing: 0.02em;
 color: #434455;
 background-color: #FFFFFF;
 }
-/* ----footer---- */
-.footer {
-font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height: 1.1;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-background-color: #2E2F42;
-
-
-}
-.footer-logo {
-
-color: #4D5AE5;
-
-}
-.footer-studio {
-color: #F4F4FD;  
-
-}
-.footer-text {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #E7E9FC;
-
-}
 
 
 .header-item :hover, .header-item :focus{
@@ -273,7 +242,6 @@ background-color: #E7E9FC;
 }
 
 .hero-button {
-Font-family: inherit;
 background-color: #F4F4FD;
 color: #4D5AE5;
 
@@ -336,24 +304,24 @@ font-weight: 800;
 font-size: 18px;
 line-height: 1.1;
 letter-spacing: 0.03em;
-text-transform: uppercase;
 background-color: #2E2F42;
 
 
 }
 .footer-logo {
-
+text-transform: uppercase;
 color: #4D5AE5;
 
 }
 .footer-studio {
+text-transform: uppercase;
 color: #F4F4FD;  
 
 }
+.footer-studio > span {
+color: #F4F4FD;
+}
 .footer-text {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
