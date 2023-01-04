@@ -11,18 +11,18 @@ font-size: 16px;
 background-color: var(--main-background-color);
 }
 /* -----header---- */
-.header-nav link {
-color: var(--primary-title-color);
-}
-.link {
-text-decoration: none;
-}
-.link {
+.header-link {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color:var(--primary-title-color);
+color: var(--primary-title-color);
+}
+.list{
+list-style: none;
+} 
+.link {
+text-decoration: none;
 }
 .header-logo {
 Font-family: Raleway, sans-serif;
@@ -33,7 +33,7 @@ text-transform: uppercase;
 color: var(--accent-color);
 }
 
-.logo-second part> span {
+.header-logo second part> span {
 color:var(--primary-title-color);
 }
 .contact {
@@ -48,14 +48,18 @@ color: var(--secondary-title-color);
 color: var(--accent-color);
 }
 .contact link {
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--secondary-title-color);
+
+}
+.contact link {
 text-decoration: none;
 }
 .header-item :hover, .header-item :focus{
 color:var(--accent-color);
 }
-.header-link {
-list-style: none
-}
+
 .header-link {
 color:var(--secondary-title-color);
 }
@@ -65,7 +69,6 @@ color:var(--secondary-title-color);
 background-color: #2E2F42;
 } 
 .cover-title {
-font-weight: 700;
 font-size: 56px;
 line-height: 1;
 letter-spacing: 0.02em;
