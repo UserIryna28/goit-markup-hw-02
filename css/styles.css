@@ -41,10 +41,13 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--secondary-title-color);
 }
+.contact link {
+text-decoration: none;
+}
 .header-item :hover, .header-item :focus{
 color:var(--accent-color);
 }
-.header-links {
+.header-link {
 list-style: none
 }
 .header-link {
