@@ -35,7 +35,7 @@ color: var(--accent-color);
 .logo {
 color:var(--primary-title-color);
 }
-.abreviation > span {
+.logo-abreviation > span {
 color:var(--primary-title-color);
 }
 .contact {
@@ -45,6 +45,9 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--secondary-title-color);
+}
+.contact :hover,  .contact :focus {
+color: var(--accent-color);
 }
 .contact link {
 text-decoration: none;
@@ -175,20 +178,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
 }
-.header-item :hover, .header-item :focus{
-color: var(--accent-color);
-
-}
 /* ----portfolio---- */
-
 /* ----header---- */
-
-.site-nav .link.current {
-    color: var(--accent-color);
-}
-.header-item {
-color: #E5E5E5;
-}
 /* ----hero---- */
 .hero-title {
 font-weight: 500;
