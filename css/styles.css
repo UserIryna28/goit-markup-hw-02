@@ -32,10 +32,8 @@ line-height: 1.3;
 text-transform: uppercase;
 color: var(--accent-color);
 }
-.logo {
-color:var(--primary-title-color);
-}
-.logo-abreviation> span {
+
+.logo-second part> span {
 color:var(--primary-title-color);
 }
 .contact {
@@ -182,8 +180,6 @@ color: #E7E9FC;
 /* ----header---- */
 /* ----hero---- */
 .hero-title {
-font-weight: 500;
-color:var(--accent-color);
 background-color: var(--main-background-color);
 }
 .pointer {
