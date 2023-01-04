@@ -35,7 +35,7 @@ color: var(--accent-color);
 .logo {
 color:var(--primary-title-color);
 }
-.logo-abreviation > span {
+.logo-abreviation> span {
 color:var(--primary-title-color);
 }
 .contact {
