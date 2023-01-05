@@ -33,7 +33,7 @@ text-transform: uppercase;
 color: var(--accent-color);
 }
 
-.nav-logo-second-part {
+.nav-logo-second-part> span {
 color:var(--primary-title-color);
 }
 .contact-link {
@@ -136,8 +136,7 @@ list-style: none;
 .title-list {
 list-style: none;
 }
-.team-item-suptitle{
-}
+
 .team-text {
 }
 .footer {
