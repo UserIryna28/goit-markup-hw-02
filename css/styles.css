@@ -33,7 +33,7 @@ text-transform: uppercase;
 color: var(--accent-color);
 }
 
-.nav-logo-second-part {
+.second-part>span {
 color:var(--primary-title-color);
 }
 .contact-link {
@@ -78,6 +78,9 @@ cursor: pointer;
 color:var(--cover-color);
 background-color: #4D5AE5;
 } 
+.cover-button :hover, .cover-button :focus{ 
+ color: var(--accent-color);   
+}
 /* ----features---- */
 .features  {
 background-color:var(--main-background-color); 
