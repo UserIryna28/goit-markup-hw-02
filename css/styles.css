@@ -13,7 +13,6 @@ background-color: var(--main-background-color);
 /* -----header---- */
 .nav-link {
 font-weight: 500;
-font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--primary-title-color);
@@ -33,7 +32,7 @@ text-transform: uppercase;
 color: var(--accent-color);
 }
 
-.second-part>span {
+.second-part {
 color:var(--primary-title-color);
 }
 .contact-link {
@@ -98,78 +97,45 @@ background-color:var(--main-background-color);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.suptitle {
+.section-suptitle {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color:var(--primary-title-color);  
 }
-.text {
+.section-text {
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:var(--secondary-title-color);
 }
-.title {
+.section-title {
 font-size: 36px;
 line-height: 1.1;
 background: #F4F4FD;
 color: var(--primary-title-color);
 }
-
-.features-item--title  {
-}
 .features-list {
 list-style: none;
-}
-.features-item {
-}
-.features-item-text {
-}
-/* ----services---- */
-.services {
-}
-.services-item {
-}
-/* ----team---- */
-.team { 
-}
-.title-list list { 
 }
 .title-list {
 list-style: none;
 }
-
-.team-text {
-}
 .footer {
-font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height: 1.1;
-letter-spacing: 0.03em;
 background-color: #2E2F42;
 }
-.footer-logo {
-text-transform: uppercase;
-color:var(--accent-color);
+.other-part {
+color:  #F4F4FD;
 }
 .footer-studio {
 text-transform: uppercase;
 color:#F4F4FD;  
 }
-.footer-studio > span {
-color: #F4F4FD;
-}
 .footer-text {
-font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
 }
-/* ----portfolio---- */
-/* ----header---- */
-/* ----hero---- */
 .hero-title {
 background-color: var(--main-background-color);
 }
@@ -198,20 +164,6 @@ list-style: none
     color: var(--accent-color);
     background-color: var(--primary-white-color);
 }
-/* ----services---- */
-.services {
-style: none;
- }
 .services-list {
 list-style: none
 }
-.services-title {
- }
-.services-item-text {
- }
-.services-item {
-item-style: none
- }
-.services-item {
- }
- 
