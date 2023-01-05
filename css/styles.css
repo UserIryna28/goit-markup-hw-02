@@ -11,7 +11,7 @@ font-size: 16px;
 background-color: var(--main-background-color);
 }
 /* -----header---- */
-.header-link {
+.nav-link {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -33,10 +33,10 @@ text-transform: uppercase;
 color: var(--accent-color);
 }
 
-.header-logo-second-part> span {
+.second-part> span {
 color:var(--primary-title-color);
 }
-.contact {
+.contact-link {
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -47,12 +47,7 @@ color: var(--secondary-title-color);
 .contact :hover,  .contact :focus {
 color: var(--accent-color);
 }
-.contact link {
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--secondary-title-color);
 
-}
 .contact link {
 text-decoration: none;
 }
@@ -75,7 +70,7 @@ letter-spacing: 0.02em;
 color: var(--cover-color);
 } 
 .cover-button {
-Font-family: inherit;
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1,5;
@@ -100,18 +95,25 @@ background-color:var(--main-background-color);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.suptitle {
+.section-suptitle {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color:var(--primary-title-color);  
 }
-.text {
+.section-text {
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:var(--secondary-title-color);
 }
+.section-title {
+font-size: 36px;
+line-height: 1.1;
+background: #F4F4FD;
+color: var(--primary-title-color);
+}
+
 .features-item--title  {
 }
 .features-list {
@@ -123,14 +125,6 @@ list-style: none;
 }
 /* ----services---- */
 .services {
-background-color:var(--main-background-color);
-}
-.services-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.1;
-letter-spacing: 0.02em;
-color: var(--primary-title-color);
 }
 .services-item {
 }
@@ -141,14 +135,6 @@ color: var(--primary-title-color);
 }
 .title-list {
 list-style: none;
-}
-.team-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.1;
-letter-spacing: 0.02em;
-background-color:#F4F4FD;
-color:var(--primary-title-color);
 }
 .team-item-suptitle{
 }
