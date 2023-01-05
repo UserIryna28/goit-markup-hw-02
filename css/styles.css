@@ -33,7 +33,7 @@ text-transform: uppercase;
 color: var(--accent-color);
 }
 
-.header-logo second part> span {
+.header-logo-second-part> span {
 color:var(--primary-title-color);
 }
 .contact {
@@ -100,14 +100,14 @@ background-color:var(--main-background-color);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.section-suptitle {
+.suptitle {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color:var(--primary-title-color);  
 }
-.section-text {
+.text {
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:var(--secondary-title-color);
