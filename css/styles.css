@@ -33,7 +33,7 @@ text-transform: uppercase;
 color: var(--accent-color);
 }
 
-.second-part> span {
+.nav-logo-second-part {
 color:var(--primary-title-color);
 }
 .contact-link {
