@@ -95,19 +95,19 @@ background-color:var(--main-background-color);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.section-suptitle {
+.suptitle {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color:var(--primary-title-color);  
 }
-.section-text {
+.text {
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:var(--secondary-title-color);
 }
-.section-title {
+.title {
 font-size: 36px;
 line-height: 1.1;
 background: #F4F4FD;
