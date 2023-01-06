@@ -37,8 +37,6 @@ color:var(--primary-title-color);
 }
 .contact-link {
 font-style: normal;
-font-weight: 400;
-font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--secondary-title-color);
@@ -47,9 +45,6 @@ color: var(--secondary-title-color);
 color: var(--accent-color);
 }
 
-.contact-link {
-text-decoration: none;
-}
 .nav-link :hover, .nav-link :focus{
 color:var(--accent-color);
 }
@@ -148,6 +143,7 @@ color:var(--accent-color);
 }
 .hero-button :hover, .hero-button :focus {
 color: var(--accent-color);
+background: #F4F4FD;
 }
 .hero-list{
 list-style: none
