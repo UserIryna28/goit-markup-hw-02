@@ -136,13 +136,13 @@ color:var(--accent-color);
 }
 .button {
 }
-.hero-list .hero-button {
+.hero-button {
 cursor: pointer;
 background-color: #F4F4FD;
 color:var(--accent-color);
 }
-.hero-list .hero-button :hover, 
-.hero-list .hero-button :focus {
+.hero-button :hover, 
+.hero-button :focus {
 background-color: var(--accent-color);
 color: #F4F4FD;
 }
