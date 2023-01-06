@@ -136,14 +136,14 @@ color:var(--accent-color);
 }
 .button {
 }
-.hero-button {
+.hero-list .hero-button {
 cursor: pointer;
 background-color: #F4F4FD;
-color:var(--accent-color);
+color: aqua;
 }
-.hero-button :hover, .hero-button :focus {
+.hero-list .hero-button :hover, 
+.hero-list .hero-button :focus {
 color: var(--accent-color);
-background: #F4F4FD;
 }
 .hero-list{
 list-style: none
